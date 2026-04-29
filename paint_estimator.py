@@ -21,12 +21,11 @@ Outputs:
 
 #INPUTS
 room_name = input("What is the name of the room? ")
-number_walls = int(input("How many walls are in the room? "))
 wall_height = float(input("What is the height of the walls in feet? "))
 total_wall_width = float(input("What is the total width of the walls in feet? "))
 
 #PROCESSES
-total_square_footage = wall_height * total_wall_width * number_walls
+total_square_footage = wall_height * total_wall_width 
 gallons_needed = total_square_footage / 350 #one gallon covers 350 square feet
 
 #OUTPUTS
