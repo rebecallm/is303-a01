@@ -11,12 +11,11 @@ Inputs:
 -Weight in pounds (float)
 
 Processes:
-- Convert height and weight to appropriate units
+- Convert height to appropriate units
 - Calculate BMI: (weight in pounds / (height in inches)^2) * 703
 
 Outputs:
 - Print name and BMI index 
-- BMI Category 
 
 '''
 #INPUTS
