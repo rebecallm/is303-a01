@@ -22,7 +22,7 @@ Outputs:
 #INPUTS
 room_name = input("What is the name of the room? ")
 wall_height = float(input("What is the height of the walls in feet? "))
-total_wall_width = float(input("What is the total width of the walls in feet? "))
+total_wall_width = float(input("What is the total width of the walls in feet? ")) #assuming the user has already added up the width of all the walls in the room
 
 #PROCESSES
 total_square_footage = wall_height * total_wall_width 
