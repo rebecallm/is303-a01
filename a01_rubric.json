@@ -1,0 +1,115 @@
+{
+  "assignment": "A01",
+  "description": "Your First GitHub Submission",
+  "total_points": 65,
+  "points_for_submission": 0,
+  "problem_naming": {
+    "BMI Calculator": ["bmi_calculator.py", "bmi_calc.py", "bmi.py", "bmicalculator.py", "health.py"],
+    "XP Calculator": ["xp_calculator.py", "xp_calc.py", "xp.py", "xpcalculator.py", "gaming.py"],
+    "Password Time": ["password_time.py", "password.py", "password_strength.py", "passwordtime.py", "security.py"],
+    "Paint Estimator": ["paint_estimator.py", "paint.py", "paint_calc.py", "paintestimator.py", "art.py"],
+    "Lab Dilution": ["lab_dilution.py", "dilution.py", "lab.py", "labdilution.py", "science.py"],
+    "Survey Analyzer": ["survey_analyzer.py", "survey.py", "surveyanalyzer.py", "analytics.py", "data_analytics.py"],
+    "Event Budget": ["event_budget.py", "event.py", "eventbudget.py", "budget.py", "business.py"],
+    "Tip Splitter": ["tip_splitter.py", "tip.py", "tip_calculator.py", "tipsplitter.py", "tipcalculator.py"]
+  },
+  "grading_method": "simulated_inputs",
+  "problem_rubrics": {
+    "BMI Calculator": {
+      "content_checks": [
+        {"field": "I/P/O comment block", "regexes": ["'''[\\s\\S]*inputs[\\s\\S]*processes[\\s\\S]*outputs[\\s\\S]*'''", "\"\"\"[\\s\\S]*inputs[\\s\\S]*processes[\\s\\S]*outputs[\\s\\S]*\"\"\""], "points": 5}
+      ],
+      "simulated_inputs": [
+        "Alex\n70\n180"
+      ],
+      "expected_outputs": [
+        "25\\.8"
+      ],
+      "points_per_output_check": 5
+    },
+    "XP Calculator": {
+      "content_checks": [
+        {"field": "I/P/O comment block", "regexes": ["'''[\\s\\S]*inputs[\\s\\S]*processes[\\s\\S]*outputs[\\s\\S]*'''", "\"\"\"[\\s\\S]*inputs[\\s\\S]*processes[\\s\\S]*outputs[\\s\\S]*\"\"\""], "points": 5}
+      ],
+      "simulated_inputs": [
+        "Aria\n1200\n5000\n250"
+      ],
+      "expected_outputs": [
+        "15\\.2"
+      ],
+      "points_per_output_check": 5
+    },
+    "Password Time": {
+      "content_checks": [
+        {"field": "I/P/O comment block", "regexes": ["'''[\\s\\S]*inputs[\\s\\S]*processes[\\s\\S]*outputs[\\s\\S]*'''", "\"\"\"[\\s\\S]*inputs[\\s\\S]*processes[\\s\\S]*outputs[\\s\\S]*\"\"\""], "points": 5}
+      ],
+      "simulated_inputs": [
+        "admin\n8\n26"
+      ],
+      "expected_outputs": [
+        "208827064576"
+      ],
+      "points_per_output_check": 5
+    },
+    "Paint Estimator": {
+      "content_checks": [
+        {"field": "I/P/O comment block", "regexes": ["'''[\\s\\S]*inputs[\\s\\S]*processes[\\s\\S]*outputs[\\s\\S]*'''", "\"\"\"[\\s\\S]*inputs[\\s\\S]*processes[\\s\\S]*outputs[\\s\\S]*\"\"\""], "points": 5}
+      ],
+      "simulated_inputs": [
+        "Living Room\n9\n52"
+      ],
+      "expected_outputs": [
+        "1\\.33|1\\.34"
+      ],
+      "points_per_output_check": 5
+    },
+    "Lab Dilution": {
+      "content_checks": [
+        {"field": "I/P/O comment block", "regexes": ["'''[\\s\\S]*inputs[\\s\\S]*processes[\\s\\S]*outputs[\\s\\S]*'''", "\"\"\"[\\s\\S]*inputs[\\s\\S]*processes[\\s\\S]*outputs[\\s\\S]*\"\"\""], "points": 5}
+      ],
+      "simulated_inputs": [
+        "Saline\n2.0\n0.5\n100"
+      ],
+      "expected_outputs": [
+        "25\\.0"
+      ],
+      "points_per_output_check": 5
+    },
+    "Survey Analyzer": {
+      "content_checks": [
+        {"field": "I/P/O comment block", "regexes": ["'''[\\s\\S]*inputs[\\s\\S]*processes[\\s\\S]*outputs[\\s\\S]*'''", "\"\"\"[\\s\\S]*inputs[\\s\\S]*processes[\\s\\S]*outputs[\\s\\S]*\"\"\""], "points": 5}
+      ],
+      "simulated_inputs": [
+        "Customer Satisfaction\n40\n156"
+      ],
+      "expected_outputs": [
+        "3\\.9"
+      ],
+      "points_per_output_check": 5
+    },
+    "Event Budget": {
+      "content_checks": [
+        {"field": "I/P/O comment block", "regexes": ["'''[\\s\\S]*inputs[\\s\\S]*processes[\\s\\S]*outputs[\\s\\S]*'''", "\"\"\"[\\s\\S]*inputs[\\s\\S]*processes[\\s\\S]*outputs[\\s\\S]*\"\"\""], "points": 5}
+      ],
+      "simulated_inputs": [
+        "IS 303 Pizza Night\n35\n8.50"
+      ],
+      "expected_outputs": [
+        "297\\.5"
+      ],
+      "points_per_output_check": 5
+    },
+    "Tip Splitter": {
+      "content_checks": [
+        {"field": "I/P/O comment block", "regexes": ["'''[\\s\\S]*inputs[\\s\\S]*processes[\\s\\S]*outputs[\\s\\S]*'''", "\"\"\"[\\s\\S]*inputs[\\s\\S]*processes[\\s\\S]*outputs[\\s\\S]*\"\"\""], "points": 5}
+      ],
+      "simulated_inputs": [
+        "Olive Garden\n80\n20\n4"
+      ],
+      "expected_outputs": [
+        "24\\.0"
+      ],
+      "points_per_output_check": 5
+    }
+  }
+}
