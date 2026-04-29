@@ -24,7 +24,7 @@ height = float(input("What is your height in inches? "))
 weight = float(input("How much do you weigh in pounds? "))
 
 #PROCESSES
-bmi = (weight / (height ** 2)) * 703
+bmi = (weight / (height ** 2)) * 703 #formula for calculating BMI using pounds and inches
 
 #OUTPUTS
 print(f"{name}, your BMI is: {bmi:.2f}")
